@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --green-light: #00DF5E;
+    --white: #F9F9F9;
+    --gray: #828282;
+    --gray-200: #333333;
+    --gray-400: #212121;
+    --dark: #171717;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.c-container {
+    width: 1200px;
+    display: block;
+    margin: auto;
+}
+
+.c-menu {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.c-menu__logo {
+    size:100%; 
+}
+
+.c-menu__logo-link {
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.c-menu__nav {
+    size:100%; 
+}
+
+.c-menu__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    
+}
+
+.c-menu__nav-item {
+   size:100%; 
+}
+
+.c-menu__nav-link {
+    text-decoration: none;
+    font-family: "DM Sans";
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.c-card {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-card__title {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 36px;
+    width: 260px;
+    color: var(--white);
+    line-height: 47px;
+    margin-bottom: 18px;
+}
+
+.c-card__description {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color:var(--gray);
+}
+
+.c-card__content {
+    margin-top: 47px;
+}
+
+.c-card__item {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.c-card__link {
+    text-decoration: none;
+    padding: 12px 27px;
+    background-color: var(--dark);
+    border: 1px solid var(--gray-200);
+    color:var(--white);
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.c-card--green {
+    background-color: var(--green-light);
+    border: none;
+    color:var(--dark)
+}
+
+.c-content {
+    margin-top: 30px
+}
+
+.c-content__div {
+    width: 745px;
+    margin: auto;
+    text-align: center;
+}
+
+.c-content__title {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    color:var(--white);
+    margin-bottom: 30px;
+}
+
+.c-content__text {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:var(--gray);
+}
+
+.c-content__container {
+    width: 850px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.c-content__square {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 100px;
+}
+
+.c-square {
+
+}
+
+.c-square__img {
+
+}
+
+.c-square__title {
+
+}
+
+.c-square__text {
+
+}

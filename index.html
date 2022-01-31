@@ -8,22 +8,35 @@
     <title>Portfólio - Rafael Barros</title>
 </head>
 <body>
+    <script src="./script.js"></script>
     <main class="c-container">
         <header class="c-menu">
             <div class="c-menu__logo">
-                <a class="c-menu__logo-link" href="/">
-                    Logotipo
+                <a href="/">
+                    <img class="c-menu__logo-img" src="./assets/logoPerfil.jpg">
                 </a>
             </div>
-            <nav class="c-menu__nav">
-                <ul class="c-menu__nav-list">
+            <nav id="c-menu__nav" class="c-menu__nav">
+                <button 
+                id="c-menu__btn"
+                class="c-menu__btn"
+                onclick="toggleMenu(event)"
+                aria-label="Abrir Menu" 
+                aria-haspopup="true" 
+                aria-controls="menu" 
+                aria-expanded="false"
+                ><span
+                class="c-menu--sandwich"
+                id="btn-ativado"
+                ></span></button>
+                <ul id="c-menu__nav-list" class="c-menu__nav-list">
                     <li class="c-menu__nav-item">
-                        <a class="c-menu__nav-link" href="#">
+                        <a id="nav-link1" class="c-menu__nav-link" href="/">
                             Sobre mim
                         </a>
                     </li class="c-menu__nav-item">
                     <li>
-                        <a class="c-menu__nav-link" href="#">
+                        <a id="nav-link2" class="c-menu__nav-link" href="/">
                             Projetos
                         </a>
                     </li>
@@ -32,8 +45,8 @@
                             Serviços
                         </a>
                     </li> -->
-                    <li class="c-menu__nav-item">
-                        <a class="c-menu__nav-link" href="#">
+                    <li id="nav-link3" class="c-menu__nav-item">
+                        <a class="c-menu__nav-link" href="/">
                             Minhas Skills
                         </a>
                     </li>
